@@ -17,7 +17,6 @@ After running the model I got a Tversky Index score of 92%.
 The second model was trained on the entire set, which was first split into two subsets: tumor-positive and tumor-negative images. \
 Each subset was split into training, validation and testing portions seperately, and then splits were emerged to form a balanced dataset. \
 This model also used a learning rate of 0.05 and epsilon value of 0.1 with the Adam optimizer. It achieved a Tversky Index score of 84%.
-After running the model I got a Tversky index score of 84%.
 
 ## Prerequisites
 * Download the dataset from https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation and add it as a kaggle_3m folder
