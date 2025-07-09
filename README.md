@@ -9,12 +9,12 @@ The first model was trained on a dataset containing only tumor-positive masks. \
 I used a learning rate of 0.001 for the Adam optimizer, resulting in a Tversky Index score of 88%.
 
 ## Model 2
-The second model was also trained tumor-positive masks. \
+The second model was also trained on tumor-positive masks. \
 This time, I used a higher learning rate of 0.05 and also added an epsilon value of 0.1 for the Adam optimizer.
 After running the model I got a Tversky Index score of 92%.
 
 ## Model 3
-The second model was trained on the entire set, which was first split into two subsets: tumor-positive and tumor-negative images. \
+The third model was trained on the entire set, which was first split into two subsets: tumor-positive and tumor-negative images. \
 Each subset was split into training, validation and testing portions seperately, and then splits were emerged to form a balanced dataset. \
 This model also used a learning rate of 0.05 and epsilon value of 0.1 with the Adam optimizer. It achieved a Tversky Index score of 84%.
 
