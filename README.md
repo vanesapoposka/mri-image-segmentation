@@ -1,7 +1,7 @@
 # Algorithms for Image Segmentation based on Deep Learning. Brain Tumor Detection
 
 This repository contains an implementation of ResUNet-based deep learning model for precise segmentation of brain tumors in MRI scans. The model combines the strengths of U-Net and Resnet architectures with a custom loss function to address class imbalance in medical imaging. \
-By modifying the base architecture, adjusting the learning rate of the Adam optimisator, and using different training datasets, I was able to train three distinct models.
+By modifying the base architecture, adjusting the learning rate of the Adam optimizer, and using different training datasets, I was able to train three distinct models.
 
 # Trained models
 ## Model 1
