@@ -10,7 +10,7 @@ I used a learning rate of 0.001 for the Adam optimizer, resulting in a Tversky I
 
 ## Model 2
 The second model was also trained tumor-positive masks. \
-This time, I used a higher learning rate of 0.05 and also added an epsilon value of 0.1 for the Adam optimizator.
+This time, I used a higher learning rate of 0.05 and also added an epsilon value of 0.1 for the Adam optimizer.
 After running the model I got a Tversky Index score of 92%.
 
 ## Model 3
